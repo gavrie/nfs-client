@@ -8,3 +8,5 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         strace \
         vim-tiny \
 	&& rm -rf /var/lib/apt/lists/*
+
+CMD rpcbind && rpc.statd && bash
