@@ -4,6 +4,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         netbase \
         nfs-common \
         iputils-ping \
+        iproute \
         netcat \
         strace \
         vim-tiny \
