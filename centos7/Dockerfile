@@ -5,7 +5,9 @@ RUN yum -y update &&  yum -y install \
         traceroute \
 	iputils \
 	vim-minimal  \ 
-	nmap-ncat 
+	nmap-ncat \
+	libaio-devel \
+         libunwind-devel
 
 #CMD rpcbind && rpc.statd && bash
 CMD bash
