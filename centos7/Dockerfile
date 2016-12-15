@@ -7,6 +7,8 @@ RUN yum -y update &&  yum -y install \
 	vim-minimal  \ 
 	nmap-ncat \
 	libaio-devel \
+	epel-release \
+	fio \
          libunwind-devel
 
 #CMD rpcbind && rpc.statd && bash
